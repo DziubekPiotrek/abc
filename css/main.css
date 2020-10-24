@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+p{
+    font-size: 1.6rem;
+}
+/*NAVIGACJA*/
+
+.services li{
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+nav{
+    height: 50px;
+    background-color: rgb(54,54,54);
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a{
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+nav li a:hover{
+    color: rgb(0,195,255);
+}
+
+/* HEADER */
+
+.header-img{
+    position: relative;
+    height: 260px;
+    background-image: url('../img/forest-4996811_1920.jpg');
+    background-position: 60% 22%;
+    background-repeat: no-repeat;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.header-bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+
+header h1{
+    font-size: 5rem;
+    margin-bottom: 10px;
+
+}
+/* Main */
+main{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.about-us-heading{
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section { 
+    margin: 40px 0;
+}
+.about-us-section{
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.top{  
+    background-image: url('../img/board-453758_1920.jpg'); 
+}
+
+.middle{
+    background-image: url('../img/women-1209678_1920.jpg');
+}
+
+.bottom{
+    background-image: url('../img/children-593313_1920.jpg');
+}
+
+.about-us-text{
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    z-index: 1;
+}
+
+.about-us-text h3{
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.about-us-bg{
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, .8);
+    border-top-right-radius: 50px;
+}
+
+/* FOOTER*/
+
+footer{
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    background-color: rgb(54,54,54);
+    text-align: center;
+    font-size: 18px;
+}
+
+.foot-ico{
+    margin-left: 50px;
+}
+.foot-ico i {
+    color: #fff;
+    padding: 0 5px;  
+    font-size: 24px;
+    transition: color .3s;
+}
+
+.foot-ico i:hover{
+    color: rgb(0,195,255);
+    
+}
+
+.kontakt{
+    font-size: 1.6rem;
+}
